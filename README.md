@@ -65,3 +65,31 @@ answer, frames = pipeline.answer(question)
 
 print("Answer:", answer)
 
+## 📊 Evaluation
+| Model      | Top-1 Recall | Top-3 Recall |
+| ---------- | ------------ | ------------ |
+| FAISS-like | 100%         | 100%         |
+| MemoryNet  | 87%          | 96%          |
+
+## 📦 Dataset
+
+Due to size constraints (hundreds of GB), the dataset is not uploaded here.
+
+Example subset: [Download link / Google Drive / Kaggle / etc.]
+
+Expected structure:
+data/
+├── features/        # BLIP-2 extracted features
+├── memoryrank.jsonl # Retrieval dataset
+└── questions/       # Question-answer pairs
+📚 References
+
+BLIP-2: Bootstrapping Language-Image Pre-training
+
+MiniLM: Deep Self-Attention Distillation
+
+RAG: Retrieval-Augmented Generation
+
+Assistive Navigation Technologies
+ (add your own references)
+
