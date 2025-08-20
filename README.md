@@ -54,6 +54,8 @@ conda create -n pathrecall python=3.10
 conda activate pathrecall
 pip install -r requirements.txt
 
+---
+
 ## 🖼️ Example Usage
 from pathrecall import MemoryNet, RAGPipeline
 
@@ -65,11 +67,15 @@ answer, frames = pipeline.answer(question)
 
 print("Answer:", answer)
 
+---
+
 ## 📊 Evaluation
 | Model      | Top-1 Recall | Top-3 Recall |
 | ---------- | ------------ | ------------ |
 | FAISS-like | 100%         | 100%         |
 | MemoryNet  | 87%          | 96%          |
+
+---
 
 ## 📦 Dataset
 
@@ -82,7 +88,9 @@ data/
 ├── features/        # BLIP-2 extracted features
 ├── memoryrank.jsonl # Retrieval dataset
 └── questions/       # Question-answer pairs
-📚 References
+---
+
+## 📚 References
 
 BLIP-2: Bootstrapping Language-Image Pre-training
 
@@ -92,4 +100,16 @@ RAG: Retrieval-Augmented Generation
 
 Assistive Navigation Technologies
  (add your own references)
+
+---
+## ✨ Contribution
+
+This project is part of ongoing PhD research on assistive AI for navigation and memory recall.
+Feedback, issues, and collaborations are welcome!
+
+---
+## 📄 License
+MIT License © 2025 [Pei Du]
+ 
+
 
