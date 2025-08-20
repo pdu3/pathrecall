@@ -53,11 +53,11 @@ cd pathrecall
 conda create -n pathrecall python=3.10
 conda activate pathrecall
 pip install -r requirements.txt
-
+```
 ---
 
 ## 🖼️ Example Usage
-```bash
+```python
 from pathrecall import MemoryNet, RAGPipeline
 
 retriever = MemoryNet.load_pretrained("checkpoints/memorynet.pt")
@@ -67,7 +67,7 @@ question = "When I looked up at the green exit sign, which direction should I ha
 answer, frames = pipeline.answer(question)
 
 print("Answer:", answer)
-
+```
 ---
 
 ## 📊 Evaluation
