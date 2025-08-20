@@ -42,3 +42,26 @@ Pathrecall/                 # 这是你的项目根目录
 │   └── evaluation.md       # 实验报告（详细的评价指标）
 │
 └── README.md               # 项目说明文档
+
+
+---
+
+## ⚙️ Installation
+```bash
+git clone https://github.com/pdu3/pathrecall.git
+cd pathrecall
+conda create -n pathrecall python=3.10
+conda activate pathrecall
+pip install -r requirements.txt
+
+## 🖼️ Example Usage
+from pathrecall import MemoryNet, RAGPipeline
+
+retriever = MemoryNet.load_pretrained("checkpoints/memorynet.pt")
+pipeline = RAGPipeline(retriever=retriever)
+
+question = "When I looked up at the green exit sign, which direction should I have gone?"
+answer, frames = pipeline.answer(question)
+
+print("Answer:", answer)
+
