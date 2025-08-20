@@ -57,6 +57,7 @@ pip install -r requirements.txt
 ---
 
 ## 🖼️ Example Usage
+```bash
 from pathrecall import MemoryNet, RAGPipeline
 
 retriever = MemoryNet.load_pretrained("checkpoints/memorynet.pt")
@@ -70,6 +71,7 @@ print("Answer:", answer)
 ---
 
 ## 📊 Evaluation
+
 | Model      | Top-1 Recall | Top-3 Recall |
 | ---------- | ------------ | ------------ |
 | FAISS-like | 100%         | 100%         |
