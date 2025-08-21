@@ -73,8 +73,8 @@ print("Answer:", answer)
 
 | Model      | Top-1 Recall | Top-3 Recall |
 | ---------- | ------------ | ------------ |
-| FAISS-like | 100%         | 100%         |
-| MemoryNet  | 87%          | 96%          |
+| FAISS-like | 83.5%        | 90.5%        |
+| MemoryNet  | 85.5%        | 94.7%        |
 
 ---
 
