@@ -6,15 +6,14 @@ Unlike conventional VQA models that operate on a single image, PathRecall mainta
 This enables answering context-dependent queries such as:  
 > *“Earlier, when I passed by the recycling area with the number 3 sign, what kind of seating did I encounter?”*
 
-The system integrates a custom **MemoryNet retriever**, a modified **BLIP-2 backbone**, and a **RAG-style pipeline**, showing how temporal memory retrieval improves accessibility of built environments for **visually impaired (VI)** users.
+The system integrates a custom **MemoryNet retriever**, a modified **BLIP-2 backbone**, and a **context-aware captioner**, showing how temporal memory retrieval improves accessibility of built environments for **visually impaired (VI)** users.
 
 ---
 
 ## 🔑 Key Features
-- **Temporal Memory Retrieval**: Maintains an index of past video frames for history-aware QA.  
-- **MemoryNet**: A lightweight retriever trained with MiniLM embeddings + BLIP-2 features.  
+- **MemoryNet**: A lightweight retrieval network trained on MiniLM embeddings and BLIP-2 features, designed to identify and rank the most relevant video frames given a user’s query.  
 - **Question-Aware Captioning**: Generates scene descriptions conditioned on the query.  
-- **RAG Pipeline**: Connects retrieval with answer generation to ensure grounded responses.  
+- **Modified Blip2**: This model can take question-aware captions of the selected frame as prompts to improve VQA accuracy  
 - **Assistive Focus**: Designed with applications in accessibility and indoor navigation in mind.  
 
 ---
