@@ -1,0 +1,148 @@
+[
+  {
+      "split": "val",
+      "image_id": 111111,
+      "question_id": "22jbM6gDxdaMaunuzgrsBB",
+      "question": "How to approach to the Short Term Garage?",
+      "choices": [
+          "Turn right",
+          "Turn left",
+          "Move forward",
+          "Don't know"
+      ],
+      "correct_choice_idx": 0,
+      "direct_answers": [
+          "Turn right",
+          "Turn right",
+          "Turn right",
+          "Turn right",
+          "Turn right",
+          "Turn right",
+          "Turn right",
+          "Turn right",
+          "Turn right",
+          "Turn right"
+      ],
+      "difficult_direct_answer": false,
+      "rationales": [
+          "There is a direction board pointing at the direction of garage."
+      ]
+  },
+  {
+      "split": "val",
+      "image_id": 111112,
+      "question_id": "22jbM6gDxdaMaunuzgrsBC",
+      "question": "Where is the accessible elevator to the terminal?",
+      "choices": [
+          "Right",
+          "Left",
+          "Forward",
+          "Don't know"
+      ],
+      "correct_choice_idx": 0,
+      "direct_answers": [
+          "Right",
+          "Right",
+          "Right",
+          "Right",
+          "Forward",
+          "Right",
+          "Forward",
+          "Forward",
+          "Forward",
+          "Right"
+      ],
+      "difficult_direct_answer": false,
+      "rationales": [
+          "There is a direction board pointing at the direction of elevator."
+      ]
+  },
+  {
+      "split": "val",
+      "image_id": 111117,
+      "question_id": "22jbM6gDxdaMaunuzgrsBD",
+      "question": "Where is the restroom?",
+      "choices": [
+          "Right",
+          "Left",
+          "Forward",
+          "Don't know"
+      ],
+      "correct_choice_idx": 2,
+      "direct_answers": [
+          "Forward",
+          "Forward",
+          "Forward",
+          "Forward",
+          "Forward",
+          "Forward",
+          "Forward",
+          "Forward",
+          "Forward",
+          "Forward"
+      ],
+      "difficult_direct_answer": false,
+      "rationales": [
+          "There is a direction board pointing at the direction of restroom."
+      ]
+  },
+  {
+      "split": "val",
+      "image_id": 111120,
+      "question_id": "22jbM6gDxdaMaunuzgrsBE",
+      "question": "What is the number of baggage claiming carousel?",
+      "choices": [
+          "Seven",
+          "Six",
+          "Eight",
+          "Unknown"
+      ],
+      "correct_choice_idx": 0,
+      "direct_answers": [
+          "Seven",
+          "Seven",
+          "Six",
+          "Seven",
+          "Seven",
+          "Unknown",
+          "Seven",
+          "Seven",
+          "Seven",
+          "Six"
+      ],
+      "difficult_direct_answer": false,
+      "rationales": [
+          "There is a board showing the number."
+      ]
+  },
+  {
+    "split": "val",
+    "image_id": 111127,
+    "question_id": "22jbM6gDxdaMaunuzgrsBF",
+    "question": "Is it safe to cross the road",
+    "choices": [
+        "Yes with caution",
+        "No",
+        "Yes",
+        "Don't know"
+    ],
+    "correct_choice_idx": 0,
+    "direct_answers": [
+        "Yes with caution",
+        "Yes with caution",
+        "Yes with caution",
+        "Yes with caution",
+        "Yes with caution",
+        "Yes",
+        "Yes",
+        "Yes with caution",
+        "Yes with caution",
+        "Yes with caution"
+    ],
+    "difficult_direct_answer": false,
+    "rationales": [
+        "There is a board showing the caution pedestrian crosswalk."
+    ]
+}
+
+]

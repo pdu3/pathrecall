@@ -1,0 +1,50 @@
+[
+    {
+        "description": "The image showcases an indoor corridor, possibly in an airport or transportation hub. There are directional signs indicating 'Long Term Garage' and 'Short Term Garage'. The floor has a green patterned carpet, and there's a yellow protective cover on a machine or kiosk on the right side. The corridor extends into the distance with moving walkways, and there are a few other signs and fixtures along the way.</s>",
+        "img_id": "000000111111",
+        "question": "How to approach to the Short Term Garage?",
+        "question_id": "22jbM6gDxdaMaunuzgrsBB"
+    },
+    {
+        "description": "The image showcases an indoor setting, possibly an airport terminal. There are moving walkways or escalators, indicating a pathway for travelers. The ceiling is white with linear lighting fixtures. On the left, there's a door labeled 'Terminal', and on the right, there are signs indicating 'Emergency Exit' and 'Accessible'. The floor has a patterned carpet, and there are a few chairs placed in a row.</s>",
+        "img_id": "000000111112",
+        "question": "Where is the accessible elevator to the terminal?",
+        "question_id": "22jbM6gDxdaMaunuzgrsBC"
+    },
+    {
+        "description": "The image showcases an indoor setting, possibly an airport or a large transit hub. There are several people walking around, and there are signs indicating directions to various amenities such as restrooms, information, and a rental car center. The ceiling appears to be under construction or renovation, with exposed beams and ductwork.</s>",
+        "img_id": "000000111117",
+        "question": "Where is the restroom?",
+        "question_id": "22jbM6gDxdaMaunuzgrsBD"
+    },
+    {
+        "description": "The image showcases an airport baggage claim area. There's a carousel in the foreground, presumably for luggage, and overhead signs indicating different baggage claim sections. One of the signs prominently displays the number '7'. There are a few people in the background, possibly waiting for their luggage or moving around the area.</s>",
+        "img_id": "000000111120",
+        "question": "What is the number of baggage claiming carousel?",
+        "question_id": "22jbM6gDxdaMaunuzgrsBE"
+    },
+    {
+        "description": "The image depicts a parking garage with a sign cautioning drivers about pedestrians crossing. The parking area is well-lit, with several cars parked neatly. The flooring appears to be clean and well-maintained.</s>",
+        "img_id": "000000111127",
+        "question": "Is it safe to cross the road?",
+        "question_id": "22jbM6gDxdaMaunuzgrsBF"
+    },
+    {
+        "description": "An indoor corridor, possibly in an airport or transportation hub. There is a directional sign pointing right to the Transportation Plaza.</s>",
+        "img_id": "000000111128",
+        "question": "A moment ago, when I stood near the intersection by the out-of-order machine, what direction did the sign point for the Transportation Plaza?",
+        "question_id": "22jbM6gDxdaMaunuzgrsBG"
+    },
+    {
+        "description": "A hallway showing an office with a glass panel door, a wall-mounted map, and possible safety equipment such as an emergency phone and fire extinguisher near the corner</s>",
+        "img_id": "000000111129",
+        "question": "Earlier, when I stood beside the wooden door and looked up at the green exit sign, which direction would I have gone?",
+        "question_id": "22jbM6gDxdaMaunuzgrsBH"
+    },
+    {
+        "description": "A hallway corner showing a large yellow wall with a bold number “3” sign and a set of recycling and trash bins beneath it, near a lounge area and glassdoor offices.</s>",
+        "img_id": "000000111130",
+        "question": "When I passed by the recycling area with the large number \"3\" sign, what kind of seating and signage did I encounter on the left side of the hallway?",
+        "question_id": "22jbM6gDxdaMaunuzgrsBI"
+    }
+]
