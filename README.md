@@ -17,7 +17,7 @@ The system integrates a custom **MemoryNet retriever**, a modified **BLIP-2 back
 - **Assistive Focus**: Designed with applications in accessibility and indoor navigation in mind.  
 
 ---
-
+```text
 ## 📂 Project Structure
 Pathrecall/                 # 这是你的项目根目录
 ├── src/                    # "source"，源码文件夹
@@ -41,7 +41,7 @@ Pathrecall/                 # 这是你的项目根目录
 │   └── evaluation.md       # 实验报告（详细的评价指标）
 │
 └── README.md               # 项目说明文档
-
+```
 
 ---
 
@@ -83,12 +83,13 @@ print("Answer:", answer)
 Due to size constraints (hundreds of GB), the dataset is not uploaded here.
 
 Example subset: [Download link / Google Drive / Kaggle / etc.]
-
+```text
 Expected structure:
 data/
 ├── features/        # BLIP-2 extracted features
 ├── memoryrank.jsonl # Retrieval dataset
 └── questions/       # Question-answer pairs
+```
 ---
 
 ## 📚 References
